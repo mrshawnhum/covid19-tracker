@@ -1,10 +1,16 @@
 import React from 'react';
 
 class App extends React.Component {
+  async componentDidMount() {
+    const fetchedData = await fetchData()
+
+    this.setState({data: fetchedData})
+  }
   render() {
+    const {data} = this.state;
     return (
       <div className="App">
-      <h1>Test</h1>
+      <Cards data={this.state.data}/>
       </div>
     );
   }
