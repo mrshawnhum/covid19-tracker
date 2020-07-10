@@ -1,10 +1,17 @@
 .container {
+    height: 50%;
     margin: 50px 0;
+    width: 65%;
 }
 
 .card {
     margin: 0 2% !important;
+    transition: all 0.4s ease-in-out;
 }
+
+.card:hover {
+    transform: scale(1.1);
+  }
 
 .infected {
     border-bottom: 10px solid rgba(0, 0, 255, 0.5);
@@ -17,3 +24,24 @@
 .deaths {
     border-bottom: 10px solid rgba(255, 0, 0, 0.5);
 }
+
+@media screen and (min-width: 1400px) {
+    .card {
+        height: 15em;
+        width: 60em;
+    }
+    
+    .Cards_container_X18k2 {
+      align-content: center;
+    }
+  }
+  @media screen and (min-width: 1600px) {
+    .card-container {
+      
+    }
+  }
+  @media screen and (min-width: 1900px) {
+    .card-container {
+      
+    }
+  }
