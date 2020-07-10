@@ -8,7 +8,7 @@ This application was developed with create-react-app. To load the page on port:3
 
 ## Live Site
 
-This is the LIVE site - 
+This is the LIVE site - <https://example-covid-19-tracker.netlify.app>
 
 ## API 
 
