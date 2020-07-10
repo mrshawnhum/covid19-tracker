@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import {fetchDailyData} from '../../api'
 import {Line, Bar} from 'react-chartjs-2'
+// import line and bar graph
 
 import styles from './Chart.module.css'
 
@@ -18,7 +19,8 @@ export const Chart = ({data: {confirmed, deaths, recovered}, country}) => {
     }, [])
 
     const lineChart = (
-        dailyData[0] // if '0' will be false
+        dailyData[0] 
+        // if '0' will be false
         ? ( 
         <Line 
             data={{

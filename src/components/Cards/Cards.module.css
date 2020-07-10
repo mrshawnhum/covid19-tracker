@@ -24,24 +24,3 @@
 .deaths {
     border-bottom: 10px solid rgba(255, 0, 0, 0.5);
 }
-
-@media screen and (min-width: 1400px) {
-    .card {
-        height: 15em;
-        width: 60em;
-    }
-    
-    .Cards_container_X18k2 {
-      align-content: center;
-    }
-  }
-  @media screen and (min-width: 1600px) {
-    .card-container {
-      
-    }
-  }
-  @media screen and (min-width: 1900px) {
-    .card-container {
-      
-    }
-  }
