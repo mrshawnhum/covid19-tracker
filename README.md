@@ -1,5 +1,7 @@
 # Coronavirus Tracker Web Application
 
+![covid19](images/covid19_tracker.png)
+
 With the unfortunate circumstance, I have decided to develop a web application to track the current cases of the pandemic and provide visual data of the statics. I am still working on the design and optimizing for mobile-use and 4k resolution screen.
 
 ## Introduction
