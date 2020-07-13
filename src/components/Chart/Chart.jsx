@@ -67,7 +67,7 @@ export const Chart = ({data: {confirmed, deaths, recovered}, country}) => {
     )
 
     return (
-        <div className={styles.container}>
+        <div className={styles.container} >
             {country ? barChart : lineChart}
         </div>
     )
