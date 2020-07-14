@@ -1,14 +1,14 @@
 # Coronavirus Tracker Web Application
 
-With the unfortunate circumstance, I have decided to develop a web application to track the current cases of the pandemic and provide visual data of the statics. I am still working on the design and optimizing for mobile-use and 4k resolution screen.
+LIVE site - <https://example-covid-19-tracker.netlify.app>
+
+![covid-19 tracker](./src/images/2020-07-13-21-19-00.png)
+
+With the unfortunate circumstance, I have decided to develop a web application to track the current cases of the pandemic and provide visual data of the statics. Please feel free to fork this project!
 
 ## Introduction
 
 This application was developed with create-react-app. To load the page on port:3000, you must use Yarn Start.
-
-## Live Site
-
-This is the LIVE site - <https://example-covid-19-tracker.netlify.app>
 
 ## API 
 
