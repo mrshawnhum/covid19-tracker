@@ -16,9 +16,8 @@ export const Cards = ({
     return 'Loading...';
   }
   // if the numbers are NOT confirmed, return loading
-
+// wrap everything in a container and define the theme for the content(Typography, xs, md, spacing)
   return (
-    // wrap everything in a container and define the theme for the content(Typography, xs, md, spacing)
     <div className={styles.container}>
       <Grid container spacing={3} justify='center'>
         <Grid
